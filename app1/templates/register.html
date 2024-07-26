@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var messages = document.getElementsByClassName("alert");
+            Array.prototype.forEach.call(messages, function(message) {
+                alert(message.textContent.trim());
+            });
+        });
+    </script>
+</head>
+<body class="body-tag">
+    {% if messages %}
+        <ul style="display: none;">
+        {% for message in messages %}
+            <li class="alert">{{ message }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+        <div class="wrapper-reg">
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form method="POST"action="{% url 'register' %}" >
+                    {% csrf_token %}
+                    <div class="input-box">
+                        <input type="text" name="username" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="pass1" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label> <input type="checkbox" required>I agree to the terms and conditions</label>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account? <a href="{% url 'login' %}" class="register-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+</body>
+</html>

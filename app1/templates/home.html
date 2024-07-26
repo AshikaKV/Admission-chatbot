@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Enquiry Chatbot System</title>
+    {% load static %}
+        <link rel="stylesheet" href="{% static 'style.css' %}">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Admission Enquiry Chatbot System</h1>
+            <img src="static/sdmit.jpg" alt="College Background Image">
+        </div>
+        <div class="content">
+            <h2>About SDMIT College:</h2>
+            <p>Welcome to SDMIT College! We are dedicated to providing exceptional education and fostering a vibrant community of learners. With state-of-the-art facilities and renowned faculty, we strive to empower our students to excel in their chosen fields.</p>
+            <a href="{% url 'login' %}" class="register-btn">Get Started</a>
+        </div>
+    </div>
+
+    <!-- Slick JS 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false,
+                dots: false,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                pauseOnHover: false,
+                pauseOnFocus: false
+            });
+        });
+    </script>-->
+</body>
+</html>

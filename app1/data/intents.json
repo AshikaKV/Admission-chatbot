@@ -1,0 +1,1000 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "hii",
+      "hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "??? ??? ??"
+   ],
+   "responses": [
+      "Hello! It's Good to see you here. How can i help you?"
+      
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "c ya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon"
+   ],
+   "context_set": ""
+},
+{
+   "tag":"fullform",
+   "patterns":[
+      "sdmit fullform",
+      "fullform of sdmit",
+      "full form of sdmit",
+      "sdmit full form"
+   ],
+   "responses":[
+      "Shri Dharmasthala Manjunatheshwara Institute of Technology is the Abreivation"
+   ]
+},
+{
+   "tag":"sdmit",
+   "patterns":[
+      "tell me about sdmit",
+      "how is sdmit",
+      "information about sdmit",
+      "sdmit",
+      "explain me about sdmit college",
+      "tell me about sdmit college"
+   ],
+   "responses":[
+      "SDM Institute of Technology is an ambition driven technological institution situated in Ujire within the homely ambiance of SDM Institutions and the serenity of the Western Ghats. Managed by SDM Educational Society Ujire under the impeccable leadership of Sri. D. Veerendra Heggade."
+   ]
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "The students of SDMIT College, studying in the department of Computer Science and Engineering"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "president",
+   "patterns": [
+      "Who is president",
+      "name of president",
+      "president of sdm institution"
+
+   ],
+   "responses": [
+      "Sri. Dr.D Veerendra Heggade is the president of SDM institutes"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "computer hod",
+   "patterns": [
+      "cse hod",
+      "Who is computer  Science HOD",
+      "Where is computer science science HOD",
+      "computer science hod",
+      "name of computer hod",
+      "name of computer science hod",
+      "Who is computer science HOD",
+      "Where is computer science HOD"
+   ],
+   "responses": [
+      "Dr. Thyagaraju G S is the current HoD of Computer Science Department.He has completed his M.Tech. in the year 2001 from University of Mysore and Ph.D. in the year 2014 from VTU Belagavi. His areas of interest are Contextual Artificial Intelligence and Theory of Mind. He has published 3 books and 52 national and international research papers. He is the life member of IETE. "
+   ],
+   "context_set": ""
+},
+{
+   "tag":"civil hod",
+   "patterns":[
+      "name of civil hod",
+      "civil department hod name",
+      "who is the hod of civil"
+   ],
+   "responses":[
+      " Dr. Madhusudhan K is the current Hod of Electronics and Communication Department"
+   ]
+},
+
+{
+   "tag":"AI and DS hod",
+   "patterns":[
+      "Artificial Intelligence & Data Science hod",
+      "Artificial Intelligence & Data Science department hod name",
+      "who is the hod of Artificial Intelligence & Data Science",
+      "ADE hod"
+   ],
+   "responses":[
+      "Ms. Veena Bhat is the current Hod of Electronics and Communication Department"
+   ]
+},
+{
+   "tag":"IS hod",
+   "patterns":[
+      "Information Science hod",
+      "Information Science department hod name",
+      "who is the hod of Information Science"
+   ],
+   "responses":[
+      "Dr.G P Hegde is the current Hod of Information Science Department"
+   ]
+},
+{
+   "tag":"EEE hod",
+   "patterns":[
+      "Electrical and elecronics hod",
+      "EEE hod",
+      "Electrical and elecronics department hod name",
+      "who is the hod of Electrical and elecronics"
+   ],
+   "responses":[
+      "Dr. K Manjunath  is the current Hod of  Electrical and elecronics Department"
+   ]
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You can call me chatbot ,who is here to help you to clarify your doubts regarding sdmit college"
+
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "timing of college",
+      "what is college timing",
+      "working days",
+      "when are you guys open",
+      "what are your hours",
+      "hours of operation",
+      "when is the college open",
+      "college timing",
+      "what about college timing",
+      "is college open on saturday",
+      "tell something about college timing",
+      "what is the college  hours",
+      "when should i come to college",
+      "when should i attend college",
+      "what is my college time",
+      "college timing",
+      "timing college",
+      "Working hours in college",
+      "What is the Working hours in college"
+   ],
+   "responses": [
+      "College opens at 8am and closes at 5pm from Monday-Saturday!. First and Third saturday's of every month is holiday as per the university rule."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact college",
+      "college telephone number",
+      "college number",
+      "What is your contact no",
+      "Contact number?",
+      "how to call you",
+      "College phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call"
+   ],
+   "responses": [
+      "You can contact us at: 08256-236961,236621"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "course",
+   "patterns": [
+      "branches",
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "courses?",
+      "courses offered",
+      "courses offered in (your univrsity(UNI) name)",
+      "courses you offer",
+      "branches?",
+      "courses available at sdmit?",
+      "branches available at your college?",
+      "what are the courses in college?",
+      "what are branches in college?",
+      "what are courses in college?",
+      "branches available in college?",
+      "can you tell me the courses available in college?",
+      "can you tell me the branches available in college?",
+      "courses offered in sdmit",
+      "branches available"
+   ],
+   "responses": [
+      "Our university offers Civil Engineering,Computer Science Engineering,Information Science Engineering,Artificial Intelligence and Data Science,Electrical and Electronics Engineering,Electronics and Communication Engineering."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fees structure",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "fees structure of sdmit",
+      "fee structure",
+      "fee structure of sdmit",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees",
+      "how much is the fees"
+      
+   ],
+   "responses": [
+      "Different branches has different Fees structure based on KCET rank and management seat, For more Fee detail visit <a target=\"_blank\" href=\"https://sdmit.in/\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the college located",
+      "college is located at",
+      "where is college",
+      "where is college located",
+      "address of college",
+      "how to reach college",
+      "college location",
+      "college address",
+      "wheres the college",
+      "how can I reach college",
+      "whats is the college address",
+      "what is the address of college",
+      "address",
+      "location",
+      "address of sdmit",
+      "give me the address of sdmit college",
+      "give me the address of sdmit "
+   ],
+   "responses": [
+      "Dharmasthala Rd, near Siddhavana, Ujire, Karnataka 574240.To find the map route of our college click on this <a target=\"_blank\" href=\"https://goo.gl/maps/u7d2JvQzZohFb6kB6\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hostel",
+   "patterns": [
+      "hostel facility",
+      "hostel facilities",
+      "hostel service",
+      "hostel location",
+      "hostel facilities provided in sdmit",
+      "hostel address",
+      "hostel facilities",
+      "hostel fees",
+      "Does college provide hostel",
+      "Is there any hostel",
+      "Where is hostel",
+      "do you have hostel",
+      "do you guys have hostel",
+      "hostel",
+      "hostel capacity",
+      "what is the hostel fee",
+      "how to get in hostel",
+      "what is the hostel address",
+      "how far is hostel from college",
+      "hostel college distance",
+      "where is the hostel",
+      "how big is the hostel",
+      "distance between college and hostel",
+      "distance between hostel and college"
+   ],
+   "responses": [
+      "The hostel environment at SDMIT nurtures the idea of 'A home away from home'.There are separate hostel blocks for boys and girls aimed at providing a homely, conducive and progressive environment. This is achieved by facilitating students in their studies, co-curricular and extra-curricular activities in a healthy and caring atmosphere. Herein at SDMIT, 70% of our students stay at Hostels, in part due to the excellent infrastructure and environment provided by the college.It is located within sdmit campus.For more details visit <a target=\"blank\" href=\"https://sdmit.in/accommodation/\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "event",
+   "patterns": [
+      "events organised",
+      "list of events",
+      "list of events organised in college",
+      "list of events conducted in college",
+      "What events are conducted in college",
+      "Are there any event held at college",
+      "Events?",
+      "functions",
+      "what are the events",
+      "tell me about events",
+      "what about events"
+   ],
+   "responses": [
+      "Events are always the most awaited moments for all budding artists. The college provides ample opportunities for the students to compete in a diverse range of competitions in and out of the college. There are over 40 inter-class competitions conducted by the college every year on account of the college day covering both literary and fine arts; and there are many inter-collegiate competitions open for the students to exhibit their talent. Food, accommodation and transport facilities are taken care of by the management when students represent the institution in inter-collegiate competitions.The college conducts a 2-day State Level Science Fair EXPERIA for the PU students and Apart from the above hobby clubs, the technical clubs and associations are active at department levels. To name some, IOT club, Web development club, Energy club, Eagers association, Techtronics, Coding club, etc."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "eligibility",
+   "patterns": [
+      "What are the eligibility criteria",
+      "eligibility criteria",
+      "eligibility criteria for college",
+      "eligibility criteria for sdmit college",
+      "eligibility criteria to get into this college",
+      "What is the eligibility criteria"
+   ],
+   "responses": [
+      "Candidate should have passed 10+2 or equivalent course in English as one of the languages of study with a minimum of 45% and above (40% in case of SC/ST, Category I, 2A, 2B, 3A and 3B) aggregate marks in Physics, Mathematics as compulsory subjects along with Chemistry/ Biology/ Biotechnology/ Computer/ Electronics(anyone)as an optional subject from a recognized board."
+   ],
+   "context_set": ""
+
+},
+{
+   "tag": "karnataka candidates",
+   "patterns": [
+      "What are the Requirements for karnataka candidates",
+      "Requirements for karnataka candidates",
+      " karnataka candidates Requirements for college"
+   ],
+   "responses": [
+      "May opt for admission through K-CET or COMEDK quota. Selection under K-CET quota seats is based on the ranking scored in K- CET; admission under COMEDK quota is based on the ranking obtained in the COMEDK Entrance Test followed by counseling. For detailed eligibility conditions/ clause, please visit KEA website: https://cetonline.karnataka.gov.in/kea/ "
+   ],
+   "context_set": ""
+
+},
+{
+   "tag": "non karnataka candidates",
+   "patterns": [
+      "What are needed for non karnataka candidates",
+      "Needs of non karnataka candidates",
+      "non karnataka candidates needs for college"
+   ],
+   "responses": [
+      "Candidates outside Karnataka need to obtain COMEDK score and apply for admission through COMEDK counseling procedure. "
+   ],
+   "context_set": ""
+
+},
+{
+   "tag": "NRI and Foreign candidates",
+   "patterns": [
+      "What are the documents Required for NRI and Foreign candidates",
+      "documents Required for NRI and Foreign candidates",
+      "NRI and Foreign candidates documents Required for college"
+   ],
+   "responses": [
+      "Admission is open to NRI / Foreign candidates who have passed 12th standard or equivalent examination recognized by AIU (Association of Indian Universities). The eligibility criterion is as mentioned above."
+   ],
+   "context_set": ""
+
+},
+{
+   "tag": "Management admission process",
+   "patterns": [
+      "How management quota admission process works",
+      "management admission process",
+      "Tell me about management admission process",
+      "working of management admission process"
+   ],
+   "responses": [
+      "Admission to the management quota seats is open to Karnataka, non-Karnataka, and NRI students. However, the candidate should have appeared and obtained a valid K-CET/ COMEDK/JEE / AIEEE ranking score. Eligible students (those who meet qualifying requirements as per the eligibility criteria) may contact the SDMIT admissions section in order to obtain the application form. Candidates will be selected based on their academic merit and ranking."
+   ],
+   "context_set": ""
+
+},
+{
+   "tag": "lateral entry ",
+   "patterns": [
+      "lateral entry process for diploma students",
+      "Diploma students admission process",
+      "lateral entry admission process",
+      "what is lateral entry admission process"
+   ],
+   "responses": [
+      "Diploma Holders in engineering with an aggregate minimum of 45% marks and above (40% in case of SC/ ST and Backward Classes of Karnataka) taken together in all the subjects of the final year (V and VI sem) conducted by the Board of Technical Examination, Government of Karnataka or its equivalent, are eligible for admission to the corresponding branch of II year engineering. Candidates must have taken the Common Entrance Test (DCET) conducted by the K-CET Cell for diploma students. Seats will be allotted by K-CET Cell through a centralized counseling process."
+   ],
+   "context_set": ""
+
+},
+ {
+   "tag": "document",
+   "patterns": [
+      "documents to bring",
+      "documents needed for admision",
+      "documents needed at the time of admission",
+      "documents needed during admission",
+      "documents required for admission",
+      "documents required for admission process",
+      "documents required at the time of admission",
+      "documents required during admission",
+      "What document are required for admission",
+      "Which document to bring for admission",
+      "documents",
+      "what documents do i need",
+      "what documents do I need for admission",
+      "documents needed"
+   ],
+   "responses": [
+      "1.Rank Card of the entrance exam taken/ Admit Card (K-CET/ COMEDK as applicable)\n2.SSLC/ 10th Marks Card\n3.PUC/ 12th Marks Card or equivalent\n4.Transfer Certificate\n5.Conduct Certificate from the Principal of the institution last studied\n6.Photographs: 4 Passport size, 4 Stamp size\n7.Migration Certificate (for non-Karnataka Boards-ICSE, CBSE etc.)\n8.Caste / Caste Income Certificate issued by Concerned Tahsildar for SC / ST in Form-D, Category-I in form E and 2A, 2B, 3A and 3B in Form F (If claiming reservation benefits)\n9.Rural Study Certificate from 1st to 10th std for 10 complete years (If claiming Rural quota)\n10.Kannada Medium Study Certificate from 1st to 10th std for 10 complete years (If claiming Kannada Medium quota)\n11.Candidate's Study certificate\n12.Attested copies of Address proof (AadhaarCard/Voter ID)\n13.One self-addressed envelope with Rs.5 stamp."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "floors",
+   "patterns": [
+      "size of campus",
+      "building size",
+      "How many floors does college have",
+      "floors in college",
+      "floors in college",
+      "how tall is UNI's College of Engineering college building",
+      "floors"
+   ],
+   "responses": [
+      "Our College has 4 floors in total with a good ambience and eco friendly environment. It also provides an good environment for studying to students"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "syllabus",
+   "patterns": [
+      "Syllabus for IT",
+      "what is the Information Technology syllabus",
+      "syllabus",
+      "timetable",
+      "what is IT syllabus",
+      "syllabus",
+      "What is next lecture",
+      "what is the syllabus of first sem students",
+      "what is the syllabus of second sem students",
+      "what is the syllabus of third sem students",
+      "what is the syllabus of fourth sem students",
+      "what is the syllabus of fifth sem students",
+      "what is the syllabus of sixth sem students",
+      "what is the syllabus of seventh sem students",
+      "what is the syllabus of eighth sem students",
+      "what is the syllabus"
+
+   ],
+   "responses": [
+      "Timetable or syllabus is provided directly to the students once the semester starts OR To know about syllabus visit <a target=\"_blank\" href=\"https://sdmit.in/?s=Syllabus+\"> here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "library",
+   "patterns": [
+      "is there a library",
+      "library facility",
+      "library facilities",
+      "do you have library",
+      "does the college have library facility",
+      "college library",
+      "where can i get books",
+      "book facility",
+      "Where is library",
+      "Library",
+      "Library information",
+      "Library books information",
+      "Tell me about library",
+      "how many libraries"
+   ],
+   "responses": [
+      "The academic library is the real powerhouse of any educational institution and conveys its integral role in supporting the core mission of higher education. SDMIT library is housed in a separate 2-storied building with an area of 1,300 sq.m with modern amenities and facilities. The infrastructure has a centralized facility with a seating capacity of 300 and an open access system for users. It has 35,000 printed resources of books in 6,651 titles, journals, bound volumes and student project reports. Routine activities like data entry, information storage, OPAC search, retrieval, circulation, bar-coding of books, usage index, etc. are carried out using an EERPMS software developed in-house. and for more visit <a target=\"blank\" href=\"https://sdmit.in/library/\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "infrastructure",
+   "patterns": [
+      "how is college infrastructure",
+      "infrastructure",
+      "college infrastructure",
+      "tell me about infrastructure",
+      "about infrastructure"
+   ],
+   "responses": [
+      "Our University has Excellent Infrastructure. Campus is clean. The infrastructure is good, we have all the necessary facilities. We have labs, an auditorium, a sports ground, and a place for cultural events. Many numbers of books and computers are present in our college. The classroom is equipped with projectors and smartboards."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "canteen",
+   "patterns": [
+      "food facilities",
+      "canteen facilities",
+      "canteen facility",
+      "is there any canteen",
+      "Is there a cafetaria in college",
+      "Does college have canteen",
+      "Where is canteen",
+      "where is cafetaria",
+      "canteen",
+      "Food",
+      "Cafetaria"
+   ],
+   "responses": [
+      "Our university has canteen facility for all the staff and students with variety of food available."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "job offers",
+   "patterns": [
+      "how many companies have visited to college till date",
+      "Number of companies visited",
+      "how many companies have visited to college",
+      "companies visited",
+      "company visited"
+   ],
+   "responses": [
+      "Till date 430+ companies has visited our college and has got good respose and recruited eligible students."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "menu",
+   "patterns": [
+      "food menu",
+      "food in canteen",
+      "Whats there on menu",
+      "what is available in college canteen",
+      "what foods can we get in college canteen",
+      "food variety",
+      "What is there to eat?"
+   ],
+   "responses": [
+      "we serve a variety of dishes like idli vada dip,masal dosa, rice items,juices and milkshakes, chats. "
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "placement",
+   "patterns": [
+      "What is college placement",
+      "Which companies visit in college",
+      "What is average package",
+      "companies visit",
+      "package",
+      "About placement",
+      "placement",
+      "recruitment",
+      "companies"
+   ],
+   "responses": [
+      "SDM Institute of Technology has placed thousands of students in various reputed organizations since its inception through on-campus and pool drives. We welcome interactions with reputed organizations from all over the country for arranging campus interviews. To know about placement visit <a target=\"_blank\" href=\"https://sdmit.in/placements/\">here</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ithod",
+   "patterns": [
+      "Who is HOD",
+      "Where is HOD",
+      "it hod",
+      "name of it hod"
+   ],
+   "responses": [
+      "All engineering branches have hod available at their department."
+   ],
+   "context_set": ""
+},
+ 
+ {
+   "tag": "principal",
+   "patterns": [
+      "tell me about principal",
+      "what is the name of principal",
+      "what is the principal name",
+      "principal name",
+      "Who is college principal",
+      "Where is principal's office",
+      "principal",
+      "name of principal"
+   ],
+   "responses": [
+      "Dr. Ashok Kumar  is college principal. He is into teaching for the past 30 years. Earlier he served KVG Engg. College, Sullia and PA College of Engineering Mangalore in the capacity of Lecturer, Asst. Prof., Professor and Head of the Dept. and Principal In-charge from 1989 to 2004. He served Vivekananda Engineering College, Puttur (DK) and PESITM, Shivamogga as Principal for about 14 years from 2004 to 2018."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sem",
+   "patterns": [
+      "exam dates",
+      "exam schedule",
+      "When is semester exam",
+      "Semester exam timetable",
+      "sem",
+      "semester",
+      "exam",
+      "when is exam",
+      "exam timetable",
+      "exam dates",
+      "when is semester"
+   ],
+   "responses": [
+      "Here is the Academic Calendar of the year 2023-24 <a target=\"_blank\" href=\"https://sdmit.in/wp-content/uploads/2022/12/Calendar-of-Event-Odd-Sem-2022-23.pdf\">website</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "admission",
+   "patterns": [
+      "what is the process of admission",
+      "what is the admission process",
+      "How to take admission in your college",
+      "What is the process for admission",
+      "admission",
+      "admission process",
+      "tell me about admission process"
+   ],
+   "responses": [
+      "Application can be submitted both online and offline.In online mode it can be submitted through the Unversity's official website, for more details visit <a target=\"_blank\" href=\"https://sdmit.in/admissions/\">website</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "scholarship",
+   "patterns": [
+      "scholarship",
+      "Is scholarship available",
+      "scholarship engineering",
+      "scholarship it",
+      "scholarship ce",
+      "scholarship mechanical",
+      "scholarship civil",
+      "scholarship chemical",
+      "scholarship for AI/ML",
+      "available scholarships",
+      "scholarship for computer engineering",
+      "scholarship for IT engineering",
+      "scholarship for mechanical engineering",
+      "scholarship for civil engineering",
+      "scholarship for chemical engineering",
+      "list of scholarship",
+      "comps scholarship",
+      "IT scholarship",
+      "mechanical scholarship",
+      "civil scholarship",
+      "chemical scholarship",
+      "automobile scholarship",
+      "first year scholarship",
+      "second year scholarship",
+      "third year scholarship",
+      "fourth year scholarship"
+   ],
+   "responses": [
+      "Many government scholarships are supported by our university like Central sector Scholarship,SC/ST Scholarship, Minority Scholarship, Karepass Scholarship for OBC, MHRD Scholarship, Seetharama jindal Foundation Scholarship and SDM trust Scholarship."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "facilities",
+   "patterns": [
+      "What facilities college provide",
+      "College facility",
+      "What are college facilities",
+      "facilities",
+      "facilities provided"
+   ],
+   "responses": [
+      "Our university's Engineering department provides Labs with internet connection, smart classroom, Auditorium, library,canteen,Mentorship program,purified drinking water,Telivision hall,laundry and many."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "college intake",
+   "patterns": [
+      "max number of students",
+      "number of seats per branch",
+      "number of seats in each branch",
+      "maximum number of seats",
+      "maximum students intake",
+      "What is college intake",
+      "how many stundent are taken in each branch",
+      "seat allotment",
+      "seats"
+   ],
+   "responses": [
+      "For CSE - 120 Students,ISE - 60 Students, EEE - 30 students, EEC - 120 Students, Civil Engg. - 30 Students."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "uniform",
+   "patterns": [
+      "college dress code",
+      "college dresscode",
+      "what is the uniform",
+      "can we wear casuals",
+      "Does college have an uniform",
+      "Is there any uniform",
+      "uniform",
+      "what about uniform",
+      "do we have to wear uniform"
+   ],
+   "responses": [
+      "Students need to wear formals during wednesday and saturday, followed by uniform on other days."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "committee",
+   "patterns": [
+      "what are the different committe in college",
+      "different committee in college",
+      "Are there any committee in college",
+      "Give me committee details",
+      "committee",
+      "how many committee are there in college"
+   ],
+   "responses": [
+      "For the various committe in college  visit <a target=\"_blank\" href=\"https://sdmit.in/committees/\">website</a>"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "random",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me",
+      "will you be my friend"
+   ],
+   "responses": [
+      "I am not program for this, please ask appropriate query"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "swear",
+   "patterns": [
+      "fuck",
+      "bitch",
+      "shut up",
+      "hell",
+      "stupid",
+      "idiot",
+      "dumb ass",
+      "asshole",
+      "fucker"
+   ],
+   "responses": [
+      "please use appropriate language",
+      "Maintaining decency would be appreciated"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "vacation",
+   "patterns": [
+      "holidays",
+      "when will semester starts",
+      "when will semester end",
+      "when is the holidays",
+      "list of holidays",
+      "Holiday in these year",
+      "holiday list",
+      "about vacations",
+      "about holidays",
+      "When is vacation",
+      "When is holidays",
+      "how long will be the vacation"
+   ],
+   "responses": [
+      "Academic calender is given to you by your class-coordinators after you join your respective classes"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "sports",
+   "patterns": [
+      "sports and games",
+      "give sports details",
+      "sports infrastructure",
+      "sports facilities",
+      "information about sports",
+      "Sports activities",
+      "please provide sports and games information"
+   ],
+   "responses": [
+      "Our university encourages all-round development of students and hence provides sports facilities in the campus."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "salutaion",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "welcome, anything else i can assist you with?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer to low-intermediate questions regarding college",
+      "You can ask me questions regarding college, and i will try to answer them"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "ragging",
+   "patterns": [
+      "ragging",
+      "is ragging practice active in college",
+      "does college have any antiragging facility",
+      "is there any ragging cases",
+      "is ragging done here",
+      "ragging against",
+      "antiragging facility",
+      "ragging juniors",
+      "ragging history",
+      "ragging incidents"
+   ],
+   "responses": [
+      "We are Proud to tell you that our college provides ragging free environment, and we have strict rules against ragging"
+   ],
+   "context_set": ""
+},
+{
+   "tag":"campus life",
+   "patterns":[
+      "How is campus life",
+      "Campus life in sdmit"
+   ],
+   "responses":[
+      "Campus life at SDMIT is confidently amongst the best atmospheres an institution can manage to provide for the holistic growth of young minds. The academic growth is firmly rooted in religious, disciplinary, social and progressive values, as validated by every student who has experienced campus life here. Not only does the campus provide all the facilities required for a student to thrive on intellectual and personal levels, it also ensures that the students are pushed beyond their boundaries to implement their learning and produce noteworthy outcomes. Majority of the students and staff carry out large number of social benefit activities like blood donation camps, mentoring and motivating primary and high school students, involving/conducting Swachhata Abhiyaan, providing awareness among the public about road safety, etc."
+   ]
+},
+{
+   "tag":"Teaching staff",
+   "patterns":[
+        "staff",
+        "staffs",
+        "Number of teaching staff",
+        "How many teaching staff are there",
+        "Total number of staff"
+   ],
+   "responses":["There are 50+ teaching staff are there in various branches."]
+},
+{
+   "tag":"cse faculty staff",
+   "patterns":[
+        "cse faculty",
+        "cse faculty",
+        "Number of cse faculty",
+        "How many cse faculty are there",
+        "Total number of cse faculty"
+   ],
+   "responses":["There are 10+ teaching staff are there in cse branch."]
+},
+{
+   "tag":"club",
+   "patterns":[
+        "clubs",
+        "clubs in your college",
+        "clubs available"
+   ],
+   "responses":[
+      "ORATOR CLUB:SDMIT, Orators Club have been started with the aim to make students fluent speakers of English, to motivate, guide & prepare students for real public speaking. The Orators Club provides the perfect platform for students to give voice to their deepest thoughts with a perfect blend of confidence, vocabulary and expression. This Club shapes the oration skills of a student by not just encouraging him to speak but also making him a good listener. Doing away with stage fear and breaking the shyness, young blooming students transformed into confident orators. YOUTH RED CROSS :Youth Red Cross is a voluntary organization functioning at SDMIT since 2011. This unit functions with social responsibility, intending to create better living conditions for the deserving in the society through student volunteers. This ensures creation of a student society that is responsible and oriented in social welfare. Students of SDMIT volunteer to be a part of Youth Red Cross activities that are conducted through out the year. Youth Red Cross organizes activities like blood donation camps, free health checkup camps and health awareness programs that are completely managed by students under the leadership of concerned faculty."]
+},
+{
+   "tag":"cet code",
+   "patterns":[
+        "cet code ",
+        "cet code for admission",
+        "cet code for college"
+   ],
+   "responses":["CET code : E152"]
+},
+{
+   "tag":"comedk code",
+   "patterns":[
+        "comedk code",
+        "comedk code for admission",
+        "comedk code for college"
+   ],
+   "responses":["COMEDK code : E118"]
+},
+{
+   "tag":"EMAIL",
+   "patterns":[
+        "email id ",
+        "What is the email id of college office",
+        "college office email id"
+   ],
+   "responses":["The email id of college office is office@sdmit.in"]
+}
+]
+}

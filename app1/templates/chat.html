@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+  
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+</head>
+<body class="body-tag">
+    
+
+    <div id="main-div">
+        <h1> Welcome to SDMIT Chatbot </h1>
+        <div id="chatbot">
+            <p class="botText"><span>Hi there</span></p>
+        </div>
+
+        <div id="userInput">
+            <input type="text" id="textInput" name="userMessage" placeholder="Type your message..."/>
+            <input type="submit" value="Send" id="buttonInput" />
+        </div>
+    </div>
+
+
+
+    <script>
+        function getUserResponse() {
+            var userText = $('#textInput').val();
+            var userHTML = "<p class='userText'>User: <span>" + userText + "</span></p>";
+            $('#textInput').val("");
+    
+            $('#chatbot').append(userHTML);
+            $.get('/getResponse', { userMessage: userText }).done(function(data) {
+                var returnedMessage = "<p class='botText'>Chatbot: <span>" + data + "</span></p>";
+                $('#chatbot').append(returnedMessage);
+            });
+        }
+        $('#textInput').keypress(function(event) {
+        // Check if the Enter key is pressed
+        if (event.which === 13) {
+            event.preventDefault(); // Prevent the default action (form submission)
+            getUserResponse();
+        }
+    })
+    
+        $('#buttonInput').click(function() {
+            getUserResponse();
+        });
+    </script>
+
+
+
+</body>
+</html>

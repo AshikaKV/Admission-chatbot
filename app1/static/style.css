@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Ensure parent container hides overflow */
+}
+
+.header h1{
+    color: black;
+}
+
+.slider-frame{
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+
+@keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+.slide-images{
+    width: 100px;
+    height: 600px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    animation-name: slide_animation;
+    
+    animation-duration: 33s;
+    
+    animation-iteration-count: infinite;
+    
+    animation-direction: alternate;
+    
+    animation-play-state: running;
+    
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.img-container{
+    height: 800px;
+    width: 2400px;
+    position: relative;
+    float: left;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.content h2 {
+    font-size: 24px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.register-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.register-btn:hover {
+    background-color: #0056b3;
+}
+
+.body-tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('sdmit.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+.wrapper-reg {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    border: 2px solid rgba(225, 225, 225, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.wrapper-reg .form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+.form-box h2{
+    font-size: 2em;
+    columns: #162938;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: lem;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -7px; /* Adjust as needed */
+}
+
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color:  #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.remember-forgot {
+    font-size: .9em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot label input {
+    accent-color:  #162938;
+    margin-right: 3px;
+}
+
+.remember-forgot a {
+    color: #162938;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #1b1f23;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+}
+
+.login-register {
+    font-size: .9em;
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+.login-register p a {
+    color: #162938;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-register p a:hover {
+    text-decoration: underline;
+}
+
+#main-div{
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width:700px;
+    align-self: center;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(225, 225, 225, .5);
+    border-radius: 10px;
+}
+
+
+#chatbot{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 60vh;
+    background-color: rgb(207, 222, 229);
+    margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(250, 246, 246);
+    margin-bottom: 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+
+.botText{
+    font-family: monospace;
+    font-size: 20px;
+    text-align: left;
+    line-height: 25px;
+    color: rgb(109,111,109);
+
+}
+
+#userInput{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 90%;
+    font-size: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#textInput{
+    border: 3px solid white;
+    border-bottom: 3px solid #afafaf;
+    font-family: monospace;
+    font-size: 14px;
+    width: 40%;
+    padding: 16px;
+    color: rgb(175, 66, 47);
+
+}
+
+#buttonInput{
+    padding: 5px;
+    font-family: monospace;
+    font-size: 14px;
+    border: 3px solid #5b6a5b;
+    background-color: rgb(40,48,40);
+    color: white;
+    border-radius: 10px;
+}
+
+h1{
+    margin-top: 20%;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-top: 50px;
+}
+
+.userText{
+    text-align: right;
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 25px;
+    color: rgb(109,111,109);
+
+}
+
